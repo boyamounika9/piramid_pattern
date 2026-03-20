@@ -1,9 +1,9 @@
 name="mounika"
-reverse=len(name)*" "
+reverse=" "
 for i in name:
-    for j in range(-1,-(len(name)),-1):
-        reverse[j]+=i
-        continue
+    reverse=i+reverse
+
+
 print(reverse)
 
 
