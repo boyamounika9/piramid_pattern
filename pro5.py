@@ -1,7 +1,3 @@
-num=2345
-sum=0
-while num!=0:
-    digit=num%10
-    sum+=digit
-    num//=10
-print(sum)
+c=int(input())
+b=int(input())
+print(c+b)
