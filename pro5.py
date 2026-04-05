@@ -1,3 +1,4 @@
 c=int(input())
 b=int(input())
 print(c+b)
+print(c-b)
