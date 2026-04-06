@@ -15,33 +15,33 @@
 # b=input("enter operator")
 # c=int(input("enter second num"))
 # fun(a,b,c)
+
+def add(c):
+    print(a+b)
+def sub(c):
+    print(a-b)
+def mul(c):
+    print(a*b)
+def div(c):
+    print(a/b)
+def mod(c):
+    print(a%b)
+def non(c):
+    print("not a valid symbol")
+def fun(a,c,b):
+    if c=="+":
+     add(c)
+    elif c=="-":
+     sub(c)
+    elif c=="*":
+     mul(c)
+    elif c=="/":
+     div(c)
+    elif c=="%":
+     mod(c)
+    else:
+     non()
 a=int(input())
 c=input()
 b=int(input())
-def fun(a,c,b):
-    def add():
-        print(a+b)
-    def sub():
-        print(a-b)
-    def mul():
-        print(a*b)
-    def div():
-        print(a/b)
-    def mod():
-        print(a%b)
-    def non():
-        print("not a valid symbol")
-        if c=="+":
-            add()
-        elif c=="-":
-            sub()
-        elif c=="*":
-            mul()
-        elif c=="/":
-            div()
-        elif c=="%":
-            mod()
-        else:
-            non()
-
 fun(a,c,b)
