@@ -1,3 +1,4 @@
+# using single fun
 # def fun(a,b,c):
 #     if b=="+":
 #         print(a+c)
@@ -15,6 +16,9 @@
 # b=input("enter operator")
 # c=int(input("enter second num"))
 # fun(a,b,c)
+
+
+#using mul functions
 
 def add():
     print(a+b)
