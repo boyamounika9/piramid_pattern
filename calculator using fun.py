@@ -16,29 +16,29 @@
 # c=int(input("enter second num"))
 # fun(a,b,c)
 
-def add(c):
+def add():
     print(a+b)
-def sub(c):
+def sub():
     print(a-b)
-def mul(c):
+def mul():
     print(a*b)
-def div(c):
+def div():
     print(a/b)
-def mod(c):
+def mod():
     print(a%b)
-def non(c):
+def non():
     print("not a valid symbol")
 def fun(a,c,b):
     if c=="+":
-     add(c)
+     add()
     elif c=="-":
-     sub(c)
+     sub()
     elif c=="*":
-     mul(c)
+     mul()
     elif c=="/":
-     div(c)
+     div()
     elif c=="%":
-     mod(c)
+     mod()
     else:
      non()
 a=int(input())
