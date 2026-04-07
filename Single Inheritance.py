@@ -8,3 +8,10 @@ class dog(animal):
 d=dog()
 d.sound()
 
+class vehical:
+    def start(self):
+        print("start")
+class car(vehical):
+    pass
+v=car()
+v.start()
