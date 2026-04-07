@@ -12,3 +12,4 @@ class child(father,mom):
 c=child()
 c.land()
 c.home()
+c.love()
