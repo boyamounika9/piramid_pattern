@@ -9,3 +9,11 @@ class ATM(ABC):
     @abstractmethod
     def check_balance(self):
         pass
+
+class BankATM(ATM):
+    def withdraw(self):
+        print("withdrawing")
+    def deposit(self):
+        print("depositing")
+    def check_balance(self):
+        print("balence checking")
