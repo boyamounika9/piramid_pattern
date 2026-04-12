@@ -1,4 +1,4 @@
-# Encapsulation - Bank Account
+
 
 class BankAccount:
     def __init__(self, balance):
@@ -19,7 +19,7 @@ class BankAccount:
         return self.__balance
 
 
-# Creating object
+
 acc = BankAccount(1000)
 
 acc.deposit(500)
