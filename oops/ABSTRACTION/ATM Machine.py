@@ -17,3 +17,8 @@ class BankATM(ATM):
         print("depositing")
     def check_balance(self):
         print("balence checking")
+
+b=BankATM()
+b.withdraw()
+b.deposit()
+b.check_balance()
