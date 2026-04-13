@@ -2,17 +2,23 @@ class ATM :
     def __init__(self, balance,pin):
         self.__balance = balance
         self.__pin=pin
-    def Deposit(self,pin):
-        if len(pin)==6:
+    def Deposit(self):
+        if self.__pin=="mounika@9":
             print("depositing amount")
-    def withdraw(self,pin):
-        if len(pin)==6:
+        else:
+            print("deny access")
+    def withdraw(self):
+        if self.__pin=="mounika@9":
             print("withdrawing amount")
-    def checkbalence(self,pin):
-        if len(pin)==6:
+        else:
+            print("deny access")
+    def checkbalence(self):
+        if self.__pin=="mounika@9":
             print("balence amount is:",self.__balance)
+        else:
+            print("deny access")
 
-a=ATM(3000)
-a.Deposit("123456")
-a.withdraw("123456")
-a.checkbalence("123456")
+a=ATM(3000,"mounika@9")
+a.Deposit()
+a.withdraw()
+a.checkbalence()
