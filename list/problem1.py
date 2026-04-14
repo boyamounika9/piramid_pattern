@@ -33,3 +33,9 @@ for i in lis:
         result.append(i)
 
 print(result)
+
+# Find the length of a list without using len().
+length=0
+for i in lis:
+    length+=1
+print(length)
