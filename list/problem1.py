@@ -1,5 +1,5 @@
 #Create a list of 10 numbers and print all elements.
-lis=[1,2,3,4,5,6,7,8,9,10]
+lis=[1,2,3,4,5,1,2,3,4,5]
 print(lis)
 
 #Find the sum of all elements in a list.
@@ -26,3 +26,10 @@ for i in range(0,len(lis)):
     list[-(i+1)]=lis[i]
 print(list)
 
+# Remove duplicates from a list.
+result = []
+for i in lis:
+    if i not in result:
+        result.append(i)
+
+print(result)
