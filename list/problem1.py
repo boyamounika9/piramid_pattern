@@ -20,4 +20,9 @@ for i in lis:
 print("even:",even)
 print("odd:",odd)
 
+# Reverse a list without using built-in functions.
+list=lis[:]
+for i in range(0,len(lis)):
+    list[-(i+1)]=lis[i]
+print(list)
 
