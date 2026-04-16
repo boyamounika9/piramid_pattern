@@ -50,11 +50,27 @@
 #         print(i,end=" ")
 #     i+=1
 
-n=int(input())
-i=1
-factorial=1
-while i<=n:
-    factorial*=i
-    i+=1
-print(factorial)
+# n=int(input())
+# i=1
+# factorial=1
+# while i<=n:
+#     factorial*=i
+#     i+=1
+# print(factorial)
     
+n=int(input())
+temp=n
+sum=0
+mul=1
+while n!=0:
+    digit=n%10
+    sum+=digit
+    n//=10
+while temp!=0:
+    digit=temp%10
+    mul*=digit
+    temp//=10
+if sum==mul:
+    print("spy")
+else:
+    print("no")
