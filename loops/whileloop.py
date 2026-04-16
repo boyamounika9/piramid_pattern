@@ -26,3 +26,11 @@
 # while i <=10:
 #     print(n,"x",i,"=",n*i )
 #     i+=1
+
+# n=int(input())
+# count=0
+# while n!=0:
+#     digit=n%10
+#     count+=1
+#     n//=10
+# print(count)
