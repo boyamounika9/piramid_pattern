@@ -78,3 +78,10 @@
 #     print("no")
 
 
+# n=int(input())
+# while True:
+#     if n%7==0 or n%10==7:
+#         print("yes")
+#     else:
+#         print("no")
+#     break
