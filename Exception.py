@@ -11,6 +11,7 @@
 try:
     a=int(input())
     b=int(input())
+    print(a/b)
 except ZeroDivisionError:
     print("cant divisible by zero")
 except ValueError:
@@ -18,5 +19,4 @@ except ValueError:
 except Exception as e:
     print("unexpected error" ,e)
 
-else:
-    print(a/b)
+    
