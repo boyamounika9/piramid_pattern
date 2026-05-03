@@ -37,14 +37,14 @@
 
 
 
-try:
-    age = int(input("Enter age: "))
+# try:
+#     age = int(input("Enter age: "))
     
-    if age < 18:
-        raise ValueError("Age must be 18 or above")
+#     if age < 18:
+#         raise ValueError("Age must be 18 or above")
 
-except ValueError as e:
-    print("Error:", e)
+# except ValueError as e:
+#     print("Error:", e)
 
-else:
-    print("Valid age")
+# else:
+#     print("Valid age")
