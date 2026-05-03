@@ -1,3 +1,3 @@
-file=open('f.txt',"w")
-file.write("is my name")
+file=open('f.txt',"r")
+print(file.read())
 file.close
