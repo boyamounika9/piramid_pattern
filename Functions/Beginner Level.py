@@ -19,3 +19,6 @@
 #     print(a**2)
 # sq(2)
 
+def power(base,exponent=2):
+    print(base**exponent)
+power(7)
