@@ -1,3 +1,4 @@
 file=open('f.txt',"r")
-print(file.read())
+count = len(file.readlines())
+print("Number of lines:", count)
 file.close
