@@ -15,6 +15,7 @@
 #         print("odd")
 # evenodd(3)
 
-def sq(a):
-    print(a**2)
-sq(2)
+# def sq(a):
+#     print(a**2)
+# sq(2)
+
