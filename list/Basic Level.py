@@ -60,3 +60,7 @@
 # print("even:",even)
 # print("odd:",odd)
 
+list=[7,8,9,4,3,5,2]
+# list.sort()
+print(max(list))
+print(min(list))
