@@ -41,5 +41,10 @@
 # print(length)
 
 
-list=[1,2,3,4,5]
-print(list)
+# list=[1,2,3,4,5]
+# print(list)
+
+nums = list(map(int, input("Enter list: ").split()))
+
+print("First element:", nums[0])
+print("Last element:", nums[-1])
