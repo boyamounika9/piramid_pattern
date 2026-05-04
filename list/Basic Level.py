@@ -65,13 +65,13 @@
 # print(max(list))
 # print(min(list))
 
-list=[7,8,9,4,3,5,2]
-maximum=list[0]
-minimum=list[0]
-for i in list:
-    if i >maximum:
-        maximum=i
-    if i<minimum:
-        minimum=i
-print(maximum)
-print(minimum)
+# list=[7,8,9,4,3,5,2]
+# maximum=list[0]
+# minimum=list[0]
+# for i in list:
+#     if i >maximum:
+#         maximum=i
+#     if i<minimum:
+#         minimum=i
+# print(maximum)
+# print(minimum)
