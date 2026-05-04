@@ -50,7 +50,12 @@
 # print("First element:", nums[0])
 # print("Last element:", nums[-1])
 list=[1,2,3,4,5]
-count=0
+even=0
+odd=0
 for i in list:
-    count+=1
-print(count)
+    if i%2==0:
+        even+=1
+    else:
+        odd+=1
+print("even:",even)
+print("odd:",odd)
