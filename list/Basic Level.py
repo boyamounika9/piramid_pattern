@@ -42,9 +42,15 @@
 
 
 # list=[1,2,3,4,5]
+
 # print(list)
 
-nums = list(map(int, input("Enter list: ").split()))
+# nums = list(map(int, input("Enter list: ").split()))
 
-print("First element:", nums[0])
-print("Last element:", nums[-1])
+# print("First element:", nums[0])
+# print("Last element:", nums[-1])
+list=[1,2,3,4,5]
+count=0
+for i in list:
+    count+=1
+print(count)
